@@ -1,0 +1,19 @@
+{
+  "name": "lifequest",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev -w @lifequest/api",
+    "dev:mobile": "npm run start -w @lifequest/mobile",
+    "build:api": "npm run build -w @lifequest/api",
+    "build:shared": "npm run build -w @lifequest/shared",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

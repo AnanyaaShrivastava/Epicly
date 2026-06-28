@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.expo/
+*.log
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+.DS_Store
+*.tsbuildinfo
+
+# Mobile
+apps/mobile/.expo/
+apps/mobile/dist/
+apps/mobile/web-build/
+
+# API
+apps/api/dist/
+
+# Shared
+packages/shared/dist/
